@@ -53,6 +53,11 @@ export const Header = () => {
               </>
             ) : (
               <>
+                <Link to="/searchTo" style={{ textDecoration: 'none' }}>
+                <Button variant="text" startIcon={<SearchIcon />}>
+                  Поиск
+                </Button>
+                </Link>
                 <Link to="/">
                   <Button href="#text-buttons">Все рецепты</Button>
                 </Link>
